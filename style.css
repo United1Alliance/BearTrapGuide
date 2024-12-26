@@ -3,11 +3,53 @@ h1 {
 }
 
 h2 {
-    font-family: "Luckiest Guy", serif;
+    /* font-family: "Luckiest Guy", serif; */
 }
 
 body {
-	font-family: "Poppins", serif;
-	width: 514px;
+	/* font-family: "Poppins", serif; */
+	/* width: 514px; */
 	margin: 0 auto;
+}
+
+table {
+    /* border-bottom: 1px solid #6c6c6c; */
+    border-spacing: 0;
+}
+
+table tr td, table tr th {
+    padding: 5px;
+    text-align: center;
+}
+
+table tr:not(:last-child) td, table tr th {
+    border-bottom: 1px solid #6c6c6c;
+}
+
+table tr td:first-child, table tr th:first-child {
+    border-right: 1px solid #6c6c6c;
+    /* padding-left: 0; */
+    text-align: left;
+}
+
+header {
+    background: #3b2aca;
+    color: #fff;
+    padding: 30px 0 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.align-self-baseline.position-sticky {
+    top: 0;
+}
+
+strong.text-blue {
+    color: #2196F3;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 50px;
 }
